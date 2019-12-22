@@ -1,0 +1,28 @@
+@import '../../variables';
+
+.Hero {
+    .headline {
+        h1 {
+            font-size: 1.75em;
+        }
+        p {
+            font-size: 1em;
+            line-height: 1.375;
+        }
+    }
+}
+
+@media (min-width: $md) {
+    .Hero {
+        padding-top: 2.35rem;
+        padding-bottom: 2.35rem;
+        .headline {
+            h1 {
+                font-size: 3em;
+            }
+            p {
+                font-size: 1.5em;
+            }
+        }
+    }
+}

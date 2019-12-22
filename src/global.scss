@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Prata&display=swap');
+@import './variables';
+
+body {
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    color: $black;
+    background: $bgColor;
+}
+::selection {
+  background: $action;
+  color: #fff;
+}
+::-moz-selection {
+  background: $action;
+  color: #fff;
+}
+.text-muted {
+    color: $grey;
+}
+
+.serif {
+    font-family: $serif;
+}
+
+small {
+  font-size: 90%;
+}
+
+.fa-bookmark {
+  color: $grey;
+  -webkit-text-fill-color: $bgColor;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: $black;
+}
+
+.btn {
+  .fa-bookmark {
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1.5px;
+    font-size: 85%;
+    -webkit-text-stroke-color: #fff;
+  }
+}
+
+.selected {
+  background: $action;
+}
